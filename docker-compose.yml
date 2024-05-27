@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   fast-api:
-    image: fast_appsem:v2
+    image: tiangolo/uvicorn-gunicorn-fastapi
     ports:
       - 8000:8000
     restart: unless-stopped
